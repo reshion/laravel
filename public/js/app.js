@@ -16,13 +16,19 @@ var myApp = angular.module('myApp',
     $interpolateProvider.endSymbol('))');
    
 });
-myApp.run(function($compile, $log) {
+
+myApp.run(function($compile, $log,$rootScope) {
+//    $rootScope.$on('$routeChangeStart',function(event,next,current){
+//        next.templateUrl = "ngtemplate/"+$location.host()+"/"+next.templateUrl;
+//    });
     log = $log;
     log.log('app init');
+    //log.log($location);
 });
 
-myApp.config(function($routeProvider, $locationProvider) {
-    
+myApp.config(function( $routeProvider, $locationProvider) {
+   
+     
 //    route = $routeProvider;
     // route for the home page
     $routeProvider
@@ -58,7 +64,7 @@ myApp.config(function($routeProvider, $locationProvider) {
             });
     // Kill hash in url 
     $locationProvider.html5Mode(true);
-    
+   
 
 
 });

@@ -21,81 +21,69 @@
         <script src="js/default.js"></script>
     </head>
     <body  ng-controller="MenuController" >
-<div class="peak">
-            <div class="peak-1"></div>
-            <div class="peak-2"></div>
-        </div>
-        <div class="navbar-header">
 
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-one">
+
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-two">
+
+        </div>
+
+        <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Reshion</a>
+
         </div>
-        
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       
+        <div class="collapse navbar-collapse navbar-no-padding" id="bs-example-navbar-collapse-1">
+            <div class=" head">
 
-            <div class="row">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="container head">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-
-                                <div class="row test-menu" style="height: 60px;">
-                                    <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-6 col-xs-12  menu-1', false: 'col-lg-3 col-md-3 col-sm-6 col-xs-12  menu-1'}[status.current.activeTab == 'home']" class="col-lg-3 col-md-3 col-sm-6 col-xs-12  menu-1">
-                                        <a  href="/home"><span>Home</span></a>
-                                    </div>
-                                    <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-6 col-xs-12  menu-2', false: 'col-lg-3 col-md-3 col-sm-6 col-xs-12  menu-2'}[status.current.activeTab == 'about']" class="col-lg-3 col-md-3 col-sm-6 col-xs-12  menu-2">
-                                        <a  href="/about"><span>About</span></a>
-                                    </div>
-                                    <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-6 col-xs-12 menu-3', false: 'col-lg-3 col-md-3 col-sm-6 col-xs-12 menu-3'}[status.current.activeTab == 'project']" class="col-lg-3 col-md-3 col-sm-6 col-xs-12 menu-3">
-                                        <a  href="/project"><span>Projects</span></a>
-                                    </div>
-                                    <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-6 col-xs-12 menu-4', false: 'col-lg-3 col-md-3 col-sm-6 col-xs-12 menu-4'}[status.current.activeTab == 'article']" class="col-lg-3 col-md-3 col-sm-6 col-xs-12 menu-4">
-                                        <a  href="/article"><span>Article</span></a>
-                                    </div>
-                                </div>
-
-                                <div ng-show="false" dynamic="html" ng-model="html"></div>
-                            </div>
-
+                <div class="col-lg-offset-2 col-lg-8 col-md-8 col-lg-offset-10 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                    <div class="row test-menu" style="height: 60px;">
+                        <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-3 col-xs-8  menu-1', false: 'col-lg-3 col-md-3 col-sm-3 col-xs-8  menu-1'}[status.current.activeTab == 'home']" class="col-lg-3 col-md-3 col-sm-3 col-xs-8  menu-1">
+                            <a  href="/home"><span>Home</span></a>
+                        </div>
+                        <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-3 col-xs-8  menu-2', false: 'col-lg-3 col-md-3 col-sm-3 col-xs-8  menu-2'}[status.current.activeTab == 'about']" class="col-lg-3 col-md-3 col-sm-3 col-xs-8  menu-2">
+                            <a  href="/about"><span>About</span></a>
+                        </div>
+                        <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-3 col-xs-8 menu-3', false: 'col-lg-3 col-md-3 col-sm-3 col-xs-8 menu-3'}[status.current.activeTab == 'project']" class="col-lg-3 col-md-3 col-sm-3 col-xs-8 menu-3">
+                            <a  href="/project"><span>Projects</span></a>
+                        </div>
+                        <div ng-class="{true: 'active col-lg-3 col-md-3 col-sm-3 col-xs-8 menu-4', false: 'col-lg-3 col-md-3 col-sm-3 col-xs-8 menu-4'}[status.current.activeTab == 'article']" class="col-lg-3 col-md-3 col-sm-3 col-xs-8 menu-4">
+                            <a  href="/article"><span>Article</span></a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container head head-2">
-            <div  class="row" >
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-
-                    <div id="test-menu-2" class="row test-menu-2" style="height: 60px;">
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-3  menu-1" >
-                            <span>Home</span>
-                        </div>
-                        <div  class="col-lg-3 col-md-3 col-sm-6 col-xs-3  menu-2" >
-                            <span>About</span>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-3 menu-3"  >
-                            <span>Projects</span>
-                        </div>
-                        <div  class="col-lg-3 col-md-3 col-sm-6 col-xs-3 menu-4 " >
-                            <span>Article</span>
-                        </div>
-                    </div>
-
                     <div ng-show="false" dynamic="html" ng-model="html"></div>
                 </div>
-
             </div>
         </div>
-        <div class="container content">
+        <div class=" head head-2">
+            <div class="col-lg-offset-2 col-lg-8 col-md-8 col-lg-offset-10 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                <div id="test-menu-2" class="row test-menu-2" style="height: 60px;">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12  menu-1" >
+                        <span>Home</span>
+                    </div>
+                    <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-12  menu-2" >
+                        <span>About</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 menu-3"  >
+                        <span>Projects</span>
+                    </div>
+                    <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-12 menu-4 " >
+                        <span>Article</span>
+                    </div>
+                </div>
+                <div ng-show="false" dynamic="html" ng-model="html"></div>
+            </div>
+        </div>
+
+        <div class="content">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-offset-2 col-lg-8 col-md-8 col-lg-offset-10 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
                     <div class="main-content">
                         <ng-view></ng-view>
                     </div>

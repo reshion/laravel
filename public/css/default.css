@@ -25,180 +25,180 @@ body {
 .navbar-brand {
   color: #fff;
 }
-/* line 30, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000330}}
-.peak {
-  position: absolute;
-  height: 120px;
-  width: 100%;
-}
 /* line 31, C:\xampp\htdocs\laravel\public\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000331}}
-.peak .peak-1 {
+.header-one {
+  height: 60px;
   background-color: #000;
-  height: 60px;
+  margin-bottom: -60px;
 }
-/* line 35, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000335}}
-.peak .peak-2 {
+/* line 36, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000336}}
+.header-two {
   background-color: rgba(0, 0, 0, 0.9);
-  height: 60px;
+  height: 120px;
+  margin-bottom: -120px;
 }
-/* line 46, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000346}}
+/* line 41, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000341}}
 input,
 div,
 button {
   border-radius: 0px !important;
 }
-/* line 49, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000349}}
+/* line 44, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000344}}
 .header,
 .footer,
 .head {
   background-color: #333333;
   color: #ffffff;
 }
-/* line 54, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000354}}
+/* line 49, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000349}}
 .footer {
   min-height: 100px;
 }
-/* line 57, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000357}}
+/* line 52, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000352}}
 .header {
   min-height: 60px;
 }
-/* line 61, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000361}}
+/* line 56, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000356}}
 .content {
   background-color: #f2f2f2;
   min-height: 700px;
 }
-/* line 65, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000365}}
+/* line 60, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000360}}
 a {
   color: #ffffff;
 }
-/* line 66, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000366}}
+/* line 61, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000361}}
 a:focus {
   outline: none;
 }
-/* line 69, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000369}}
+/* line 64, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000364}}
 a:active {
   outline: none;
 }
-/* line 76, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000376}}
+/* line 71, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000371}}
 .nav a {
   background-color: #555555;
 }
-/* line 81, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000381}}
+/* line 76, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000376}}
 .nav li {
   padding-left: 1px ;
   padding-rigth: 1px ;
 }
-/* line 87, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000387}}
+/* line 82, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000382}}
 .nav .active a {
   background-color: #888800 !important;
 }
-/* line 91, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000391}}
+/* line 86, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000386}}
 .navbar-header .icon-bar {
   background-color: #fff;
 }
-/* line 94, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000394}}
+/* line 89, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000389}}
+.navbar-no-padding {
+  padding: 0px !important;
+}
+/* line 92, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\0000392}}
 .container {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
-@media (min-width: 991px) {
-  /* line 102, C:\xampp\htdocs\laravel\public\less\default.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003102}}
+@media (min-width: 768px) {
+  /* line 100, C:\xampp\htdocs\laravel\public\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003100}}
   .test-menu-2 div {
     display: inline-block;
   }
-  /* line 105, C:\xampp\htdocs\laravel\public\less\default.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003105}}
+  /* line 103, C:\xampp\htdocs\laravel\public\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003103}}
   .head-2 {
     display: block;
   }
 }
-@media (max-width: 991px) {
-  /* line 110, C:\xampp\htdocs\laravel\public\less\default.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003110}}
+@media (max-width: 768px) {
+  /* line 108, C:\xampp\htdocs\laravel\public\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003108}}
   .test-menu-2 div {
     display: none;
   }
-  /* line 113, C:\xampp\htdocs\laravel\public\less\default.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003113}}
+  /* line 111, C:\xampp\htdocs\laravel\public\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003111}}
   .head-2 {
     display: none;
   }
 }
-/* line 118, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003118}}
+/* line 116, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003116}}
 .test-menu-2 {
   background-color: #000;
 }
-/* line 119, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003119}}
+/* line 117, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003117}}
 .test-menu-2 .menu-1 {
   background-color: #008888;
   background-color: rgba(0, 136, 136, 0.4);
   height: 100%;
 }
-/* line 124, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003124}}
+/* line 122, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003122}}
 .test-menu-2 .menu-2 {
   background-color: #44aa44;
   background-color: rgba(68, 170, 68, 0.4);
   height: 100%;
 }
-/* line 129, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003129}}
+/* line 127, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003127}}
 .test-menu-2 .menu-3 {
   background-color: #888800;
   background-color: rgba(136, 136, 0, 0.4);
   height: 100%;
 }
-/* line 134, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003134}}
+/* line 132, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003132}}
 .test-menu-2 .menu-4 {
   background-color: #8f88f8;
   background-color: rgba(143, 136, 248, 0.4);
   height: 100%;
 }
-/* line 142, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003142}}
+/* line 140, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003140}}
 .test-menu-2 div:focus {
   outline: none;
   color: #ffffff;
   text-decoration: none;
 }
-/* line 147, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003147}}
+/* line 145, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003145}}
 .test-menu-2 div:active {
   outline: none;
   color: #ffffff;
   text-decoration: none;
 }
-/* line 152, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003152}}
+/* line 150, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003150}}
 .test-menu-2 div:hover {
   outline: none;
   color: #ffffff;
   text-decoration: none;
 }
-/* line 158, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003158}}
+/* line 156, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003156}}
 .test-menu-2 div span {
   opacity: 0.1;
   color: #999;
@@ -211,80 +211,80 @@ a:active {
   font-family: tahoma;
   transform: rotateX(115deg) rotateY(-6deg) skewY(-14deg) skewX(-1deg) translateY(4px) translateX(-6px);
 }
-/* line 178, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003178}}
+/* line 176, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003176}}
 .test-menu .active.menu-1 {
   background-color: #008888;
 }
-/* line 183, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003183}}
+/* line 181, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003181}}
 .test-menu .active.menu-2 {
   background-color: #44aa44;
 }
-/* line 187, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003187}}
+/* line 185, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003185}}
 .test-menu .active.menu-3 {
   background-color: #888800;
 }
-/* line 190, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003190}}
+/* line 188, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003188}}
 .test-menu .active.menu-4 {
   background-color: #8f88f8;
 }
-/* line 193, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003193}}
+/* line 191, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003191}}
 .test-menu .menu-1 {
   background-color: rgba(0, 136, 136, 0.8);
   height: 100%;
 }
-/* line 197, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003197}}
+/* line 195, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003195}}
 .test-menu .menu-1:focus,
 .test-menu .menu-1:hover,
 .test-menu .menu-1:active {
   background-color: #008888;
 }
-/* line 202, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003202}}
+/* line 200, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003200}}
 .test-menu .menu-2 {
   background-color: rgba(68, 170, 68, 0.8);
   height: 100%;
 }
-/* line 205, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003205}}
+/* line 203, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003203}}
 .test-menu .menu-2:focus,
 .test-menu .menu-2:hover,
 .test-menu .menu-2:active {
   background-color: #44aa44;
 }
-/* line 209, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003209}}
+/* line 207, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003207}}
 .test-menu .menu-3 {
   background-color: rgba(136, 136, 0, 0.8);
   height: 100%;
 }
-/* line 212, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003212}}
+/* line 210, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003210}}
 .test-menu .menu-3:focus,
 .test-menu .menu-3:hover,
 .test-menu .menu-3:active {
   background-color: #888800;
 }
-/* line 216, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003216}}
+/* line 214, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003214}}
 .test-menu .menu-4 {
   background-color: rgba(143, 136, 248, 0.8);
   height: 100%;
 }
-/* line 219, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003219}}
+/* line 217, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003217}}
 .test-menu .menu-4:focus,
 .test-menu .menu-4:hover,
 .test-menu .menu-4:active {
   background-color: #8f88f8;
 }
-/* line 224, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003224}}
+/* line 222, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003222}}
 .test-menu div a {
   font-family: tahoma;
   font-size: 26px;
@@ -294,8 +294,8 @@ a:active {
   height: 90%;
   width: 100%;
 }
-/* line 225, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003225}}
+/* line 223, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003223}}
 .test-menu div a:focus,
 .test-menu div a:active,
 .test-menu div a:hover {
@@ -303,8 +303,8 @@ a:active {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 239, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003239}}
+/* line 237, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003237}}
 .test-menu .active a {
   display: block;
   outline: none;
@@ -313,19 +313,19 @@ a:active {
   font-size: 26px;
   padding: 10px 0px;
 }
-/* line 250, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003250}}
+/* line 248, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003248}}
 .article a {
   color: #000000;
   text-decoration: none;
 }
-/* line 255, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003255}}
+/* line 253, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003253}}
 .article-content {
   padding: 0px 50px;
 }
-/* line 258, C:\xampp\htdocs\laravel\public\less\default.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003258}}
+/* line 256, C:\xampp\htdocs\laravel\public\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/laravel\/public\/less\/default\.less}line{font-family:\00003256}}
 .article-overview {
   padding: 0px 50px;
 }

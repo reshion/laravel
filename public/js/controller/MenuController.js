@@ -4,9 +4,9 @@ app.controller('MenuController', function($scope, Menu, $sce, $route, $log) {
     scope = $scope;
     $scope.status = $route;
     $scope.loading = true;
-    Menu.get().success(function(data) {
-        $scope.html = data.html;
-    });
+//    Menu.get().success(function(data) {
+//        $scope.html = data.html;
+//    });
 
     // Rendering Html after Response
     $scope.parseHtml = function(description) {
